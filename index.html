@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SeaFood Delight</title>
+    <link rel="stylesheet" href="syle.css">
+</head>
+<body>
+
+<header>
+    <h1>🦐 SeaFood Delight</h1>
+    <p>Fresh seafood from the ocean to your plate</p>
+</header>
+
+<section class="container">
+    <h2>Order Sea Food</h2>
+
+    <form id="orderForm">
+        <label>Customer Name</label>
+        <input type="text" id="name" placeholder="Enter your name">
+
+        <label>Select Sea Food</label>
+        <select id="food">
+            <option value="">-- Choose --</option>
+            <option value="Fish">🐟 Fish - $10</option>
+            <option value="Shrimp">🦐 Shrimp - $15</option>
+            <option value="Crab">🦀 Crab - $20</option>
+        </select>
+
+        <label>Quantity</label>
+        <input type="number" id="quantity" placeholder="Enter quantity">
+
+        <button type="submit">Place Order</button>
+    </form>
+
+    <div id="message"></div>
+
+    <div class="result">
+        <h3>Order Summary</h3>
+        <p id="summary"></p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 SeaFood Delight</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html> 
